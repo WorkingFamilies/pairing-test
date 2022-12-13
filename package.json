@@ -1,0 +1,25 @@
+{
+  "name": "pairing-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "npx babel-node index.js --no-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorkingFamilies/pairing-test.git"
+  },
+  "author": "Cody Gordon",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
